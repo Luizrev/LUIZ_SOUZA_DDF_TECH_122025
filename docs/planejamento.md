@@ -8,21 +8,21 @@ Este projeto segue uma abordagem Ágil, com entregas iterativas focadas em: Enge
 
 ### 📋 To Do (A Fazer)
 
-- [ ] Criar Pipeline de Ingestão de Dados (ETL)
-- [ ] Implementar Validação de Dados (Great Expectations)
 - [ ] Desenvolver App Streamlit
 - [ ] Gravar vídeo de apresentação
 - [ ] Escrever documentação final
 
 ### 🚧 Doing (Em Progresso)
 
-- [x] Configuração do Ambiente e Repositório
-- [x] Definição da Arquitetura (Colab + Streamlit)
-- [x] Download e Análise Inicial da Base Olist
+- [x] Implementar Validação de Dados (Great Expectations)
 
 ### ✅ Done (Feito)
 
 - [x] Leitura e Interpretação do Case Técnico
+- [x] Criar Pipeline de Ingestão de Dados (ETL)
+- [x] Configuração do Ambiente e Repositório
+- [x] Definição da Arquitetura (Colab + Streamlit)
+- [x] Download e Análise Inicial da Base Olist
 
 ```mermaid
 gantt
@@ -30,9 +30,9 @@ gantt
     dateFormat  YYYY-MM-DD
     section Setup
     Configuração Git          :done,    des1, 2025-12-29, 1d
-    Coleta de Dados (Olist)   :active,  des2, 2025-12-29, 1d
+    Coleta de Dados (Olist)   :done,    des2, 2025-12-29, 1d
     section Engenharia
-    Limpeza e Qualidade       :         des3, after des2, 2d
+    Limpeza e Qualidade       :active,  des3, after des2, 2d
     Enriquecimento (GenAI)    :         des4, after des3, 1d
     section Entrega
     Dashboard (Streamlit)     :         des5, after des4, 2d
