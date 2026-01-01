@@ -33,8 +33,8 @@ gantt
     Coleta de Dados (Olist)   :done,    des2, 2025-12-29, 1d
     section Engenharia
     Limpeza e Qualidade       :done,  des3, after des2, 2d
-    Enriquecimento (GenAI)    :active,des4, after des3, 1d
+    Enriquecimento (GenAI)    :active,des4, after des3, 2d
     section Entrega
     Dashboard (Streamlit)     :         des5, after des4, 2d
-    Gravação do Vídeo         :         des6, after des5, 1d
+    Gravação do Vídeo         :         des6, after des5, 2d
 ```
