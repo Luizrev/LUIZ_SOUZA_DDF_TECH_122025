@@ -8,11 +8,10 @@ Este projeto segue uma abordagem Ágil, com entregas iterativas focadas em: Enge
 
 ### 📋 To Do (A Fazer)
 
-- [ ] Escrever documentação final
 
 ### 🚧 Doing (Em Progresso)
 
-- [x] Desenvolver App Streamlit
+- [x] Escrever documentação final
 - [x] Gravar vídeo de apresentação
 
 ### ✅ Done (Feito)
@@ -23,6 +22,7 @@ Este projeto segue uma abordagem Ágil, com entregas iterativas focadas em: Enge
 - [x] Definição da Arquitetura (Colab + Streamlit)
 - [x] Download e Análise Inicial da Base Olist
 - [x] Implementar Validação de Dados (Great Expectations)
+- [x] Desenvolver App Streamlit
 
 ```mermaid
 gantt
@@ -35,6 +35,6 @@ gantt
     Limpeza e Qualidade       :done,  des3, after des2, 2d
     Enriquecimento (GenAI)    :done,des4, after des3, 2d
     section Entrega
-    Dashboard (Streamlit)     :active,  des5, after des4, 2d
-    Gravação do Vídeo         :         des6, after des5, 2d
+    Dashboard (Streamlit)     :done,  des5, after des4, 2d
+    Gravação do Vídeo         :active,des6, after des5, 2d
 ```
