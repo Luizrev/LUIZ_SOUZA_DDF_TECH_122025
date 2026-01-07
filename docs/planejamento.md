@@ -8,7 +8,6 @@ Este projeto segue uma abordagem Ágil, com entregas iterativas focadas em: Enge
 
 ### 📋 To Do (A Fazer)
 
-
 ### 🚧 Doing (Em Progresso)
 
 - [x] Escrever documentação final
@@ -36,5 +35,5 @@ gantt
     Enriquecimento (GenAI)    :done,des4, after des3, 2d
     section Entrega
     Dashboard (Streamlit)     :done,  des5, after des4, 2d
-    Gravação do Vídeo         :active,des6, after des5, 2d
+    Gravação do Vídeo         :done,  des6, after des5, 2d
 ```
